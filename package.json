@@ -1,0 +1,35 @@
+{
+  "name": "dutyfree",
+  "version": "0.1.0",
+  "description": "Create Web Workers with Callbacks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "dev": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "7.31.0",
+    "typescript": "4.3.5",
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [
+    "js",
+    "web workers",
+    "web worker callback",
+    "callback",
+    "run web worker without file",
+    "typescript web worker",
+    "js"
+  ],
+  "author": "Parsa Safavi (@parsasi)",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parsasi/dutyfree"
+  }
+}
