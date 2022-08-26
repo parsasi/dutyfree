@@ -28,7 +28,7 @@ Duty Free will allow you to create your web workers with just a callback; no ext
 
 - **No Dependencies** - no dependencies
 - **TypeScript** - Everything is TypeScript based
-- **Lint** - Preconfigured _ESlint_ with _Airbnb_ config
+- **Lint** - Pre-configured _ESlint_ with _Airbnb_ config
 - **Small** - It almost doesn't exist
 
 ## Limitations
@@ -38,7 +38,7 @@ This package is constrained by limitations of [Web Workers](https://developer.mo
 
 - You **cannot use imports** in your callback. **Scoping rules do not apply here**. Visit [here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers#web_workers_api) for more info.
 
-- If you use a module bundler like [Webpack](https://webpack.js.org/), ensure you are writing your callback is **compatiable with the target ES version (likely ES5)**, otherwise the bundler will modify the code, where it will not run in the isolation, while it needs to. 
+- If you use a module bundler like [Webpack](https://webpack.js.org/), ensure you are writing your callback is **compatible with the target ES version (likely ES5)**, otherwise the bundler will modify the code, where it will not run in the isolation, while it needs to. 
 
 ## Installation
 
