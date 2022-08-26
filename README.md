@@ -34,17 +34,18 @@ Duty Free will allow you to create your web workers with just a callback; no ext
 - **Small** - It almost doesn't exist
 
 ## Limitations
+
 This package is constrained by limitations of [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers), and [`Function.prototype.toString`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/toString). Please be aware of the following, before using it:
 
- - Please note that you do have to pass in a function defined by a [**Function Declaration**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function), not a [Function Expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function).
+- Please note that you do have to pass in a function defined by a [**Function Declaration**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function), not a [Function Expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function).
 
 - You **cannot use imports** in your callback. **Scoping rules do not apply here**. Visit [here](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers#web_workers_api) for more info.
 
-- If you use a module bundler like [Webpack](https://webpack.js.org/), ensure you are writing your callback is **compatible with the target ES version (likely ES5)**, otherwise the bundler will modify the code, where it will not run in the isolation, while it needs to. 
+- If you use a module bundler like [Webpack](https://webpack.js.org/), ensure you are writing your callback is **compatible with the target ES version (likely ES5)**, otherwise the bundler will modify the code, where it will not run in the isolation, while it needs to.
 
 ## Installation
 
-This module is distributed via [npm](https://www.npmjs.com/) which should be installed as one of your project's `dependencies`: 
+This module is distributed via [npm](https://www.npmjs.com/) which should be installed as one of your project's `dependencies`:
 
 ```bash
 npm i --save dutyfree
@@ -72,9 +73,9 @@ myWorker.onmessage = function (e) {
   console.log("Received: " + e.data);
 };
 
-worker.postMessage("Dooti");
+myWorker.postMessage("Dooti");
 
-worker.terminate();
+myWorker.terminate();
 ```
 
 ## Contributing
