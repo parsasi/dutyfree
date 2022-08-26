@@ -6,7 +6,9 @@
 
 ---
 
-[![dependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/status.svg)](https://david-dm.org/parsasi/dutyfree) [![devDependencies Status](https://status.david-dm.org/gh/parsasi/dutyfree.svg?type=dev)](https://david-dm.org/parsasi/dutyfree?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![dependencies Status](https://img.shields.io/github/languages/top/parsasi/js-exec)](https://github.com/parsasi/dutyfree)
+[![devDependencies Status](https://img.shields.io/npm/dm/dutyfree)](https://npmjs.com/dutyfree)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## The problem
 
