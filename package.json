@@ -1,6 +1,6 @@
 {
   "name": "dutyfree",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Create Web Workers with Callbacks",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
